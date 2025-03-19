@@ -1,0 +1,8 @@
+User name: root
+
+host name:localhost
+
+database name:newosms
+
+
+port: 3306

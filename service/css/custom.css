@@ -1,0 +1,89 @@
+/* Change Brand Name Font */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Change Navigation Color */
+.navbar #myMenu .custom-nav .nav-item a {
+  color: #fff;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover {
+  color: #f0aab1;
+}
+
+/* Make Header Images Responsive */
+.back-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  border-radius: 0px;
+  margin-top: 74px;
+}
+
+/* Header Image Sub-Title */
+.font-italic {
+  font-size: 26px;
+}
+
+/* Icon Color */
+.fi-color {
+  color: #FFA500;
+}
+
+.fi-color:hover {
+  color: #e994a2;
+}
+
+/* Adjust Container for Responsiveness */
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Margin for Welcome Heading */
+.mainHeading {
+  margin-top: 50px;
+}
+
+/* Responsive Fixes */
+@media only screen and (max-width: 600px) {
+  .myclass {
+      margin-top: 350px;
+      text-align: center;
+  }
+
+  .back-image {
+      min-height: 60vh;
+  }
+
+  .font-italic {
+      font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+      padding: 10px 15px;
+  }
+}
+
+.dropdown {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.btn-light {
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.dropdown-menu {
+  min-width: 120px;
+}
